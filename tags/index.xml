@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on rsvn.blog</title>
-    <link>https://risvn.github.io/rsvn.github.io/tags/</link>
+    <link>https://risvn.github.io/blog/tags/</link>
     <description>Recent content in Tags on rsvn.blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2025 18:12:28 +0530</lastBuildDate>
-    <atom:link href="https://risvn.github.io/rsvn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://risvn.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://risvn.github.io/rsvn.github.io/tags/blog/</link>
+      <link>https://risvn.github.io/blog/tags/blog/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/rsvn.github.io/tags/blog/</guid>
+      <guid>https://risvn.github.io/blog/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Learning-Journal</title>
-      <link>https://risvn.github.io/rsvn.github.io/tags/learning-journal/</link>
+      <link>https://risvn.github.io/blog/tags/learning-journal/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/rsvn.github.io/tags/learning-journal/</guid>
+      <guid>https://risvn.github.io/blog/tags/learning-journal/</guid>
       <description></description>
     </item>
     <item>
       <title>Made-With-Hugo</title>
-      <link>https://risvn.github.io/rsvn.github.io/tags/made-with-hugo/</link>
+      <link>https://risvn.github.io/blog/tags/made-with-hugo/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/rsvn.github.io/tags/made-with-hugo/</guid>
+      <guid>https://risvn.github.io/blog/tags/made-with-hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes-to-Self</title>
-      <link>https://risvn.github.io/rsvn.github.io/tags/notes-to-self/</link>
+      <link>https://risvn.github.io/blog/tags/notes-to-self/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/rsvn.github.io/tags/notes-to-self/</guid>
+      <guid>https://risvn.github.io/blog/tags/notes-to-self/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal-Blog</title>
-      <link>https://risvn.github.io/rsvn.github.io/tags/personal-blog/</link>
+      <link>https://risvn.github.io/blog/tags/personal-blog/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/rsvn.github.io/tags/personal-blog/</guid>
+      <guid>https://risvn.github.io/blog/tags/personal-blog/</guid>
       <description></description>
     </item>
   </channel>
