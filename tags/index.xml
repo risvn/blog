@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on rsvn.blog</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on rsvn.blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Oct 2025 18:12:28 +0530</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning-Journal</title>
+      <link>/tags/learning-journal/</link>
+      <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
+      <guid>/tags/learning-journal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Made-With-Hugo</title>
+      <link>/tags/made-with-hugo/</link>
+      <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
+      <guid>/tags/made-with-hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes-to-Self</title>
+      <link>/tags/notes-to-self/</link>
+      <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
+      <guid>/tags/notes-to-self/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal-Blog</title>
+      <link>/tags/personal-blog/</link>
+      <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
+      <guid>/tags/personal-blog/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -5,21 +5,21 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Posts | My New Hugo Site</title>
+<title>Posts | rsvn.blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="Posts - My New Hugo Site">
+<meta name="description" content="Posts - rsvn.blog">
 <meta name="author" content="">
-<link rel="canonical" href="https://example.org/posts/">
+<link rel="canonical" href="/posts/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://example.org/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://example.org/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://example.org/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://example.org/apple-touch-icon.png">
-<link rel="mask-icon" href="https://example.org/safari-pinned-tab.svg">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://example.org/posts/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="https://example.org/posts/">
+<link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -71,8 +71,23 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://example.org/posts/">
-  <meta property="og:site_name" content="My New Hugo Site">
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const saved = localStorage.getItem("theme");
+  if (saved === "retro") {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "\/css\/retro.min.css";
+    link.id = "retro-style";
+    document.head.appendChild(link);
+  }
+});
+</script>
+
+<meta property="og:url" content="/posts/">
+  <meta property="og:site_name" content="rsvn.blog">
   <meta property="og:title" content="Posts">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
@@ -90,7 +105,7 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://example.org/posts/"
+      "item": "/posts/"
     }
   ]
 }
@@ -100,7 +115,7 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://example.org/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="/" accesskey="h" title="rsvn.blog (Alt + H)">rsvn.blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -125,19 +140,46 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header">
+<header class="page-header"><div class="breadcrumbs"><a href="/">Home</a></div>
   <h1>
     Posts
   </h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">rsvn&#39;s Blog
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>My Commonplace “Your mind is for having ideas, not holding them.”
+— David Allen
+Our brain consumes far more information than we can handle — and often, we forget things( these are the words form the book bulidng a second brain)
+So, I wanted to make my learning structured — something easily maintainable, reachable, and organized.
+This is my commonplace — a space to store the information I gather and interpret in my own perspective and can be accesed from any where just with internet connection.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-10-30 18:12:28 +0530 IST'>October 30, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to rsvn&#39;s Blog" href="/posts/whyblog/"></a>
+</article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://example.org/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="/">rsvn.blog</a></span> · 
 
     <span>
         Powered by
@@ -149,7 +191,35 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+function toggleRetro() {
+  const existing = document.getElementById("retro-style");
+  if (existing) {
+    existing.remove();
+    localStorage.removeItem("theme");
+  } else {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "\/css\/retro.min.css";
+    link.id = "retro-style";
+    document.head.appendChild(link);
+    localStorage.setItem("theme", "retro");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.createElement("button");
+  btn.textContent = " Toggle Retro Mode";
+  btn.style.position = "fixed";
+  btn.style.bottom = "20px";
+  btn.style.right = "20px";
+  btn.style.zIndex = "9999";
+  btn.onclick = toggleRetro;
+  document.body.appendChild(btn);
+});
+</script>
+
+
 
 <script>
     let menu = document.getElementById('menu');
