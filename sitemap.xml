@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/blog/</loc>
+    <loc>https://risvn.github.io/blog/categories/blog/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/tags/blog/</loc>
+    <loc>https://risvn.github.io/blog/tags/blog/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://risvn.github.io/blog/categories/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/tags/learning-journal/</loc>
+    <loc>https://risvn.github.io/blog/tags/learning-journal/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/tags/made-with-hugo/</loc>
+    <loc>https://risvn.github.io/blog/tags/made-with-hugo/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/tags/notes-to-self/</loc>
+    <loc>https://risvn.github.io/blog/tags/notes-to-self/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/tags/personal-blog/</loc>
+    <loc>https://risvn.github.io/blog/tags/personal-blog/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://risvn.github.io/blog/posts/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://risvn.github.io/blog/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/posts/whyblog/</loc>
+    <loc>https://risvn.github.io/blog/posts/whyblog/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://risvn.github.io/blog/tags/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://risvn.github.io/blog/archives/</loc>
   </url>
 </urlset>
