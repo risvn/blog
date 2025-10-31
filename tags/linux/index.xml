@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on rsvn.blog</title>
+    <link>http://localhost:1313/blog/tags/linux/</link>
+    <description>Recent content in Linux on rsvn.blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>developer-tools</title>
+      <link>http://localhost:1313/blog/posts/resources/dev-tools/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/resources/dev-tools/</guid>
+      <description>&lt;h1 id=&#34;-developer-tools--learning-resources&#34;&gt;🧰 Developer Tools — Learning Resources&lt;/h1&gt;
+&lt;p&gt;A curated list of &lt;strong&gt;developer tools&lt;/strong&gt; and &lt;strong&gt;learning materials&lt;/strong&gt; for mastering the modern developer workflow — from terminals and editors to version control and build systems.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-1-terminals--shells&#34;&gt;🖥️ 1. Terminals &amp;amp; Shells&lt;/h2&gt;
+&lt;h3 id=&#34;-learn-the-command-line&#34;&gt;🔹 Learn the Command Line&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxcommand.org/tlcl.php&#34;&gt;The Linux Command Line&lt;/a&gt; — A free book by William Shotts.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;amp;list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&amp;amp;index=1&#34;&gt;messing semister -Shell (YT) &lt;/a&gt; — missing semester video lecture .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-terminal-multiplexers&#34;&gt;🔹 Terminal Multiplexers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thoughtbot.com/blog/a-tmux-crash-course&#34;&gt;A tmux crash course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-2-text-editors--ides&#34;&gt;🧑‍💻 2. Text Editors &amp;amp; IDEs&lt;/h2&gt;
+&lt;h3 id=&#34;-vim--neovim&#34;&gt;🔹 Vim / Neovim&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim Official Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=a6Q8Na575qc&amp;amp;list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&amp;amp;index=3&#34;&gt;vim editor by missing semester&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@ThePrimeagen&#34;&gt;ThePrimeagen Vim Guide (YT)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-vs-code&#34;&gt;🔹 VS Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs&#34;&gt;VS Code Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf&#34;&gt;VS Code Keyboard Shortcuts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-3-version-control--git--github&#34;&gt;🗂️ 3. Version Control — Git &amp;amp; GitHub&lt;/h2&gt;
+&lt;h3 id=&#34;-git&#34;&gt;🔹 Git&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2sjqTHE0zok&amp;amp;list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&amp;amp;index=6&#34;&gt;version control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;Pro Git Book (Free)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/k88hudson/git-flight-rules&#34;&gt;Git Flight Rules&lt;/a&gt; — What to do when things go wrong.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-github&#34;&gt;🔹 GitHub&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/&#34;&gt;GitHub Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/actions&#34;&gt;GitHub Actions&lt;/a&gt; — Automate workflows.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cli.github.com/&#34;&gt;GitHub CLI&lt;/a&gt; — Use GitHub from your terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-4-build-tools--package-managers&#34;&gt;⚙️ 4. Build Tools &amp;amp; Package Managers&lt;/h2&gt;
+&lt;h3 id=&#34;-javascript--typescript&#34;&gt;🔹 JavaScript / TypeScript&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.npmjs.com/&#34;&gt;npm Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pnpm.io/&#34;&gt;pnpm&lt;/a&gt; — Fast, disk-efficient package manager.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vitejs.dev/&#34;&gt;Vite&lt;/a&gt; — Modern frontend build tool.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-python&#34;&gt;🔹 Python&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pip.pypa.io/en/stable/user_guide/&#34;&gt;pip User Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://python-poetry.org/&#34;&gt;Poetry&lt;/a&gt; — Dependency management and packaging.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://virtualenv.pypa.io/&#34;&gt;virtualenv&lt;/a&gt; — Isolated Python environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-c--c&#34;&gt;🔹 C / C++&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cmake.org/cmake/help/latest/guide/tutorial/index.html&#34;&gt;CMake Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ninja-build.org/manual.html&#34;&gt;Ninja Build System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnu.org/software/make/manual/make.html&#34;&gt;GNU Make Manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-5-debugging--profiling&#34;&gt;🧾 5. Debugging &amp;amp; Profiling&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~gilpin/tutorial/&#34;&gt;gdb Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://valgrind.org/docs/manual/manual.html&#34;&gt;Valgrind&lt;/a&gt; — Memory debugging tool.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://strace.io/&#34;&gt;strace&lt;/a&gt; — Trace system calls and signals.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://perf.wiki.kernel.org/index.php/Tutorial&#34;&gt;perf&lt;/a&gt; — Linux performance analysis tool.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-6-web-dev-tools&#34;&gt;🌐 6. Web Dev Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.chrome.com/docs/devtools&#34;&gt;Chrome DevTools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/&#34;&gt;Mozilla Developer Network (MDN)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://catonmat.net/cookbooks/curl&#34;&gt;curl Cookbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-7-devops--environment-setup&#34;&gt;🐳 7. DevOps &amp;amp; Environment Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.docker.com/get-started/&#34;&gt;Docker — Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.docker.com/compose/&#34;&gt;Docker Compose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/tutorials/kubernetes-basics/&#34;&gt;Kubernetes Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linuxfromscratch.org/&#34;&gt;Linux From Scratch&lt;/a&gt; — Understand how systems are built.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-8-productivity--workflow&#34;&gt;🧠 8. Productivity &amp;amp; Workflow&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ohmyz.sh/&#34;&gt;Oh My Zsh&lt;/a&gt; — Framework for managing your zsh configuration.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/junegunn/fzf&#34;&gt;fzf&lt;/a&gt; — Fuzzy finder for the terminal.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BurntSushi/ripgrep&#34;&gt;ripgrep (rg)&lt;/a&gt; — Fast searching tool.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sharkdp/bat&#34;&gt;bat&lt;/a&gt; — &lt;code&gt;cat&lt;/code&gt; with syntax highlighting.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dandavison/delta&#34;&gt;delta&lt;/a&gt; — Beautiful git diffs in terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-9-bonus--learning-platforms&#34;&gt;📚 9. Bonus — Learning Platforms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/&#34;&gt;FreeCodeCamp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theodinproject.com/&#34;&gt;The Odin Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://roadmap.sh/&#34;&gt;Roadmap.sh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://devdocs.io/&#34;&gt;DevDocs.io&lt;/a&gt; — Offline docs for everything.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-10-practice-projects&#34;&gt;🧩 10. Practice Projects&lt;/h2&gt;
+&lt;p&gt;Try building these to sharpen your dev tool skills:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

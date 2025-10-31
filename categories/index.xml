@@ -6,8 +6,15 @@
     <description>Recent content in Categories on rsvn.blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 18:12:28 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 00:16:37 +0530</lastBuildDate>
     <atom:link href="https://risvn.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://risvn.github.io/blog/categories/development/</link>
+      <pubDate>Sat, 01 Nov 2025 00:16:37 +0530</pubDate>
+      <guid>https://risvn.github.io/blog/categories/development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Blog</title>
       <link>https://risvn.github.io/blog/categories/blog/</link>

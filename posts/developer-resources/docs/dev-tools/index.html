@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>developer-tools | rsvn.blog</title>
+<meta name="keywords" content="vim, cli, linux, arch, git, dev">
+<meta name="description" content="🧰 Developer Tools — Learning Resources
+A curated list of developer tools and learning materials for mastering the modern developer workflow — from terminals and editors to version control and build systems.
+
+🖥️ 1. Terminals &amp; Shells
+🔹 Learn the Command Line
+
+The Linux Command Line — A free book by William Shotts.
+messing semister -Shell (YT)  — missing semester video lecture .
+
+🔹 Terminal Multiplexers
+
+A tmux crash course
+
+
+🧑‍💻 2. Text Editors &amp; IDEs
+🔹 Vim / Neovim
+
+Neovim Official Site
+vim editor by missing semester
+ThePrimeagen Vim Guide (YT)
+
+🔹 VS Code
+
+VS Code Docs
+VS Code Keyboard Shortcuts
+
+
+🗂️ 3. Version Control — Git &amp; GitHub
+🔹 Git
+
+version control
+Pro Git Book (Free)
+Git Flight Rules — What to do when things go wrong.
+
+🔹 GitHub
+
+GitHub Docs
+GitHub Actions — Automate workflows.
+GitHub CLI — Use GitHub from your terminal.
+
+
+⚙️ 4. Build Tools &amp; Package Managers
+🔹 JavaScript / TypeScript
+
+npm Docs
+pnpm — Fast, disk-efficient package manager.
+Vite — Modern frontend build tool.
+
+🔹 Python
+
+pip User Guide
+Poetry — Dependency management and packaging.
+virtualenv — Isolated Python environments.
+
+🔹 C / C&#43;&#43;
+
+CMake Tutorial
+Ninja Build System
+GNU Make Manual
+
+
+🧾 5. Debugging &amp; Profiling
+
+gdb Tutorial
+Valgrind — Memory debugging tool.
+strace — Trace system calls and signals.
+perf — Linux performance analysis tool.
+
+
+🌐 6. Web Dev Tools
+
+Chrome DevTools
+Mozilla Developer Network (MDN)
+curl Cookbook
+
+
+🐳 7. DevOps &amp; Environment Setup
+
+Docker — Getting Started
+Docker Compose
+Kubernetes Basics
+Linux From Scratch — Understand how systems are built.
+
+
+🧠 8. Productivity &amp; Workflow
+
+Oh My Zsh — Framework for managing your zsh configuration.
+fzf — Fuzzy finder for the terminal.
+ripgrep (rg) — Fast searching tool.
+bat — cat with syntax highlighting.
+delta — Beautiful git diffs in terminal.
+
+
+📚 9. Bonus — Learning Platforms
+
+FreeCodeCamp
+The Odin Project
+Roadmap.sh
+DevDocs.io — Offline docs for everything.
+
+
+🧩 10. Practice Projects
+Try building these to sharpen your dev tool skills:">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/blog/posts/developer-resources/docs/dev-tools/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/posts/developer-resources/docs/dev-tools/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const saved = localStorage.getItem("theme");
+  if (saved === "retro") {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "http:\/\/localhost:1313\/blog\/css\/retro.min.css";
+    link.id = "retro-style";
+    document.head.appendChild(link);
+  }
+});
+</script>
+
+
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/blog/" accesskey="h" title="rsvn.blog (Alt + H)">rsvn.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/blog/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/blog/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/blog/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      developer-tools
+    </h1>
+    <div class="post-meta"><span title='2025-10-30 00:00:00 +0000 UTC'>October 30, 2025</span>&nbsp;·&nbsp;<span>2 min</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="-developer-tools--learning-resources">🧰 Developer Tools — Learning Resources<a hidden class="anchor" aria-hidden="true" href="#-developer-tools--learning-resources">#</a></h1>
+<p>A curated list of <strong>developer tools</strong> and <strong>learning materials</strong> for mastering the modern developer workflow — from terminals and editors to version control and build systems.</p>
+<hr>
+<h2 id="-1-terminals--shells">🖥️ 1. Terminals &amp; Shells<a hidden class="anchor" aria-hidden="true" href="#-1-terminals--shells">#</a></h2>
+<h3 id="-learn-the-command-line">🔹 Learn the Command Line<a hidden class="anchor" aria-hidden="true" href="#-learn-the-command-line">#</a></h3>
+<ul>
+<li><a href="https://linuxcommand.org/tlcl.php">The Linux Command Line</a> — A free book by William Shotts.</li>
+<li><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&amp;index=1">messing semister -Shell (YT) </a> — missing semester video lecture .</li>
+</ul>
+<h3 id="-terminal-multiplexers">🔹 Terminal Multiplexers<a hidden class="anchor" aria-hidden="true" href="#-terminal-multiplexers">#</a></h3>
+<ul>
+<li><a href="https://thoughtbot.com/blog/a-tmux-crash-course">A tmux crash course</a></li>
+</ul>
+<hr>
+<h2 id="-2-text-editors--ides">🧑‍💻 2. Text Editors &amp; IDEs<a hidden class="anchor" aria-hidden="true" href="#-2-text-editors--ides">#</a></h2>
+<h3 id="-vim--neovim">🔹 Vim / Neovim<a hidden class="anchor" aria-hidden="true" href="#-vim--neovim">#</a></h3>
+<ul>
+<li><a href="https://neovim.io/">Neovim Official Site</a></li>
+<li><a href="https://www.youtube.com/watch?v=a6Q8Na575qc&amp;list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&amp;index=3">vim editor by missing semester</a></li>
+<li><a href="https://www.youtube.com/@ThePrimeagen">ThePrimeagen Vim Guide (YT)</a></li>
+</ul>
+<h3 id="-vs-code">🔹 VS Code<a hidden class="anchor" aria-hidden="true" href="#-vs-code">#</a></h3>
+<ul>
+<li><a href="https://code.visualstudio.com/docs">VS Code Docs</a></li>
+<li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">VS Code Keyboard Shortcuts</a></li>
+</ul>
+<hr>
+<h2 id="-3-version-control--git--github">🗂️ 3. Version Control — Git &amp; GitHub<a hidden class="anchor" aria-hidden="true" href="#-3-version-control--git--github">#</a></h2>
+<h3 id="-git">🔹 Git<a hidden class="anchor" aria-hidden="true" href="#-git">#</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=2sjqTHE0zok&amp;list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&amp;index=6">version control</a></li>
+<li><a href="https://git-scm.com/book/en/v2">Pro Git Book (Free)</a></li>
+<li><a href="https://github.com/k88hudson/git-flight-rules">Git Flight Rules</a> — What to do when things go wrong.</li>
+</ul>
+<h3 id="-github">🔹 GitHub<a hidden class="anchor" aria-hidden="true" href="#-github">#</a></h3>
+<ul>
+<li><a href="https://docs.github.com/">GitHub Docs</a></li>
+<li><a href="https://docs.github.com/en/actions">GitHub Actions</a> — Automate workflows.</li>
+<li><a href="https://cli.github.com/">GitHub CLI</a> — Use GitHub from your terminal.</li>
+</ul>
+<hr>
+<h2 id="-4-build-tools--package-managers">⚙️ 4. Build Tools &amp; Package Managers<a hidden class="anchor" aria-hidden="true" href="#-4-build-tools--package-managers">#</a></h2>
+<h3 id="-javascript--typescript">🔹 JavaScript / TypeScript<a hidden class="anchor" aria-hidden="true" href="#-javascript--typescript">#</a></h3>
+<ul>
+<li><a href="https://docs.npmjs.com/">npm Docs</a></li>
+<li><a href="https://pnpm.io/">pnpm</a> — Fast, disk-efficient package manager.</li>
+<li><a href="https://vitejs.dev/">Vite</a> — Modern frontend build tool.</li>
+</ul>
+<h3 id="-python">🔹 Python<a hidden class="anchor" aria-hidden="true" href="#-python">#</a></h3>
+<ul>
+<li><a href="https://pip.pypa.io/en/stable/user_guide/">pip User Guide</a></li>
+<li><a href="https://python-poetry.org/">Poetry</a> — Dependency management and packaging.</li>
+<li><a href="https://virtualenv.pypa.io/">virtualenv</a> — Isolated Python environments.</li>
+</ul>
+<h3 id="-c--c">🔹 C / C++<a hidden class="anchor" aria-hidden="true" href="#-c--c">#</a></h3>
+<ul>
+<li><a href="https://cmake.org/cmake/help/latest/guide/tutorial/index.html">CMake Tutorial</a></li>
+<li><a href="https://ninja-build.org/manual.html">Ninja Build System</a></li>
+<li><a href="https://www.gnu.org/software/make/manual/make.html">GNU Make Manual</a></li>
+</ul>
+<hr>
+<h2 id="-5-debugging--profiling">🧾 5. Debugging &amp; Profiling<a hidden class="anchor" aria-hidden="true" href="#-5-debugging--profiling">#</a></h2>
+<ul>
+<li><a href="https://www.cs.cmu.edu/~gilpin/tutorial/">gdb Tutorial</a></li>
+<li><a href="https://valgrind.org/docs/manual/manual.html">Valgrind</a> — Memory debugging tool.</li>
+<li><a href="https://strace.io/">strace</a> — Trace system calls and signals.</li>
+<li><a href="https://perf.wiki.kernel.org/index.php/Tutorial">perf</a> — Linux performance analysis tool.</li>
+</ul>
+<hr>
+<h2 id="-6-web-dev-tools">🌐 6. Web Dev Tools<a hidden class="anchor" aria-hidden="true" href="#-6-web-dev-tools">#</a></h2>
+<ul>
+<li><a href="https://developer.chrome.com/docs/devtools">Chrome DevTools</a></li>
+<li><a href="https://developer.mozilla.org/">Mozilla Developer Network (MDN)</a></li>
+<li><a href="https://catonmat.net/cookbooks/curl">curl Cookbook</a></li>
+</ul>
+<hr>
+<h2 id="-7-devops--environment-setup">🐳 7. DevOps &amp; Environment Setup<a hidden class="anchor" aria-hidden="true" href="#-7-devops--environment-setup">#</a></h2>
+<ul>
+<li><a href="https://docs.docker.com/get-started/">Docker — Getting Started</a></li>
+<li><a href="https://docs.docker.com/compose/">Docker Compose</a></li>
+<li><a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/">Kubernetes Basics</a></li>
+<li><a href="https://www.linuxfromscratch.org/">Linux From Scratch</a> — Understand how systems are built.</li>
+</ul>
+<hr>
+<h2 id="-8-productivity--workflow">🧠 8. Productivity &amp; Workflow<a hidden class="anchor" aria-hidden="true" href="#-8-productivity--workflow">#</a></h2>
+<ul>
+<li><a href="https://ohmyz.sh/">Oh My Zsh</a> — Framework for managing your zsh configuration.</li>
+<li><a href="https://github.com/junegunn/fzf">fzf</a> — Fuzzy finder for the terminal.</li>
+<li><a href="https://github.com/BurntSushi/ripgrep">ripgrep (rg)</a> — Fast searching tool.</li>
+<li><a href="https://github.com/sharkdp/bat">bat</a> — <code>cat</code> with syntax highlighting.</li>
+<li><a href="https://github.com/dandavison/delta">delta</a> — Beautiful git diffs in terminal.</li>
+</ul>
+<hr>
+<h2 id="-9-bonus--learning-platforms">📚 9. Bonus — Learning Platforms<a hidden class="anchor" aria-hidden="true" href="#-9-bonus--learning-platforms">#</a></h2>
+<ul>
+<li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+<li><a href="https://www.theodinproject.com/">The Odin Project</a></li>
+<li><a href="https://roadmap.sh/">Roadmap.sh</a></li>
+<li><a href="https://devdocs.io/">DevDocs.io</a> — Offline docs for everything.</li>
+</ul>
+<hr>
+<h2 id="-10-practice-projects">🧩 10. Practice Projects<a hidden class="anchor" aria-hidden="true" href="#-10-practice-projects">#</a></h2>
+<p>Try building these to sharpen your dev tool skills:</p>
+<ul>
+<li>Set up a Neovim + tmux workflow</li>
+<li>Create a GitHub Actions CI pipeline</li>
+<li>Containerize a simple web app with Docker</li>
+<li>Build a Makefile for a C/C++ project</li>
+<li>Debug a C program with GDB and Valgrind</li>
+</ul>
+<hr>
+<h3 id="-contribute">✨ Contribute<a hidden class="anchor" aria-hidden="true" href="#-contribute">#</a></h3>
+<p>Found a great tool or guide?<br>
+Open a pull request and add it here — let’s make this a living resource for developers!</p>
+<hr>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/blog/tags/vim/">Vim</a></li>
+      <li><a href="http://localhost:1313/blog/tags/cli/">Cli</a></li>
+      <li><a href="http://localhost:1313/blog/tags/linux/">Linux</a></li>
+      <li><a href="http://localhost:1313/blog/tags/arch/">Arch</a></li>
+      <li><a href="http://localhost:1313/blog/tags/git/">Git</a></li>
+      <li><a href="http://localhost:1313/blog/tags/dev/">Dev</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/blog/">rsvn.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><script>
+function toggleRetro() {
+  const existing = document.getElementById("retro-style");
+  if (existing) {
+    existing.remove();
+    localStorage.removeItem("theme");
+  } else {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "http:\/\/localhost:1313\/blog\/css\/retro.min.css";
+    link.id = "retro-style";
+    document.head.appendChild(link);
+    localStorage.setItem("theme", "retro");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.createElement("button");
+  btn.textContent = " Toggle Retro Mode";
+  btn.style.position = "fixed";
+  btn.style.bottom = "20px";
+  btn.style.right = "20px";
+  btn.style.zIndex = "9999";
+  btn.onclick = toggleRetro;
+  document.body.appendChild(btn);
+});
+</script>
+
+
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Learning-Resources on rsvn.blog</title>
+    <link>http://localhost:1313/blog/categories/learning-resources/</link>
+    <description>Recent content in Learning-Resources on rsvn.blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/categories/learning-resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dsa-resources</title>
+      <link>http://localhost:1313/blog/posts/resources/dsa-resource/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/resources/dsa-resource/</guid>
+      <description>&lt;h1 id=&#34;cracking-interviews&#34;&gt;Cracking interviews&lt;/h1&gt;
+&lt;h3 id=&#34;index&#34;&gt;Index&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#top-github-repos-for-coding-interviews&#34;&gt;GitHub Resources for Coding Interviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#books&#34;&gt;books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#websites&#34;&gt;websites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#study-guide-key-concepts-to-learn&#34;&gt;studey guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;top-github-repos-for-coding-interviews&#34;&gt;Top GitHub Repos for Coding Interviews&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Repo Name&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+          &lt;th&gt;Language&lt;/th&gt;
+          &lt;th&gt;Stars / Notes&lt;/th&gt;
+          &lt;th&gt;Link&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;jwasham/coding-interview-university&lt;/td&gt;
+          &lt;td&gt;A detailed study plan with articles, videos, and resources to prepare for interviews at top companies like Google and Amazon. Covers DSA fundamentals to advanced topics.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;300k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/jwasham/coding-interview-university&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;TheAlgorithms/Python&lt;/td&gt;
+          &lt;td&gt;Open-source implementations of hundreds of algorithms and data structures in Python, with explanations—ideal for hands-on learning and interview practice.&lt;/td&gt;
+          &lt;td&gt;Python&lt;/td&gt;
+          &lt;td&gt;180k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/TheAlgorithms/Python&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;yangshun/tech-interview-handbook&lt;/td&gt;
+          &lt;td&gt;Curated guide for all interview phases, including DSA cheat sheets, behavioral tips, and coding challenges in multiple languages.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;100k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/yangshun/tech-interview-handbook&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ashishps1/awesome-leetcode-resources&lt;/td&gt;
+          &lt;td&gt;Awesome curated list of LeetCode resources, including problem lists, solutions, and DSA learning paths for coding interviews.&lt;/td&gt;
+          &lt;td&gt;N/A (Curated)&lt;/td&gt;
+          &lt;td&gt;10k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/ashishps1/awesome-leetcode-resources&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;AkashSingh3031/The-Complete-FAANG-Preparation&lt;/td&gt;
+          &lt;td&gt;All-in-one repo for FAANG interviews: 450+ DSA problems (Love Babbar sheet), theory on OS/DBMS, puzzles, and MCQs.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;15k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;seanprashad/leetcode-patterns&lt;/td&gt;
+          &lt;td&gt;Pattern-based approach to LeetCode problems (150+), grouping by techniques like sliding window and DP for efficient interview prep.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;40k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/seanprashad/leetcode-patterns&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;kunal-kushwaha/DSA-Bootcamp-Java&lt;/td&gt;
+          &lt;td&gt;Complete DSA bootcamp with code samples, assignments, and notes—structured for Java learners prepping for placements.&lt;/td&gt;
+          &lt;td&gt;Java&lt;/td&gt;
+          &lt;td&gt;10k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/kunal-kushwaha/DSA-Bootcamp-Java&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;careercup/CtCI-6th-Edition&lt;/td&gt;
+          &lt;td&gt;Solutions and challenges from &amp;ldquo;Cracking the Coding Interview&amp;rdquo; book, covering 189 essential problems for tech interviews.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;10k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/careercup/CtCI-6th-Edition&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;MisterBooo/LeetCodeAnimation&lt;/td&gt;
+          &lt;td&gt;Animated visualizations and solutions for 200+ LeetCode problems, making complex DSA concepts easier to grasp.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;60k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/MisterBooo/LeetCodeAnimation&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;twowaits/SDE-Interview-Questions&lt;/td&gt;
+          &lt;td&gt;Comprehensive scraped list of SDE interview questions from GeeksforGeeks, Glassdoor, etc., with DSA focus.&lt;/td&gt;
+          &lt;td&gt;N/A (Curated)&lt;/td&gt;
+          &lt;td&gt;10k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/twowaits/SDE-Interview-Questions&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;anushka23g/Complete-Placement-Preparation&lt;/td&gt;
+          &lt;td&gt;Materials for cracking coding rounds: DSA problems, interview questions, and company-wise prep.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;5k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/anushka23g/Complete-Placement-Preparation&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;fishercoder1534/Leetcode&lt;/td&gt;
+          &lt;td&gt;Daily-updated solutions to thousands of LeetCode problems, categorized by DSA topics.&lt;/td&gt;
+          &lt;td&gt;Java&lt;/td&gt;
+          &lt;td&gt;20k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/fishercoder1534/Leetcode&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;teivah/algodeck&lt;/td&gt;
+          &lt;td&gt;200+ algorithmic flash cards for quick DSA review and interview flashcards.&lt;/td&gt;
+          &lt;td&gt;N/A (Cards)&lt;/td&gt;
+          &lt;td&gt;10k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/teivah/algodeck&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;donnemartin/interactive-coding-challenges&lt;/td&gt;
+          &lt;td&gt;Interactive Python challenges with visualizations for practicing DSA like a whiteboard interview.&lt;/td&gt;
+          &lt;td&gt;Python&lt;/td&gt;
+          &lt;td&gt;30k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/donnemartin/interactive-coding-challenges&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ChunhThanhDe/Leetcode-Top-Interview&lt;/td&gt;
+          &lt;td&gt;Solutions to LeetCode&amp;rsquo;s Top 150 Interview Questions, covering core DSA patterns.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;5k+&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/ChunhThanhDe/Leetcode-Top-Interview&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;vineethm1627/SDE_Sheet_Striver&lt;/td&gt;
+          &lt;td&gt;Complete C++ solutions for all 180 problems, organized by 30-day challenge. Includes code and explanations.&lt;/td&gt;
+          &lt;td&gt;C++&lt;/td&gt;
+          &lt;td&gt;N/A&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/vineethm1627/SDE_Sheet_Striver&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;muditmahajan21/striver-sde-sheet&lt;/td&gt;
+          &lt;td&gt;Detailed problem-wise solutions with notes on approaches. Great for understanding patterns.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;N/A&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/muditmahajan21/striver-sde-sheet&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;arindal1/StriversDSASheet&lt;/td&gt;
+          &lt;td&gt;Solutions to Striver&amp;rsquo;s A2Z DSA Sheet problems, with a focus on collaborative learning and video-linked explanations.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;N/A&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/arindal1/StriversDSASheet&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;chetan6780/Striver-SDE-Sheet&lt;/td&gt;
+          &lt;td&gt;Curated list of problems with starter code and solutions for linked lists, arrays, and more.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;N/A&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/chetan6780/Striver-SDE-Sheet&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;sachuverma/DataStructures-Algorithms (Striver Section)&lt;/td&gt;
+          &lt;td&gt;Repo with theory, resources, and Striver Sheet questions/solutions in one place. Includes interview prep links.&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;N/A&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/sachuverma/DataStructures-Algorithms&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;study-guide-key-concepts-to-learn&#34;&gt;Study Guide: Key Concepts to Learn&lt;/h2&gt;
+&lt;p&gt;Before solving these problems, master foundational concepts including time/space complexity (Big O notation) and topic-specific ideas (e.g., two-pointer technique for arrays, recursion for trees).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

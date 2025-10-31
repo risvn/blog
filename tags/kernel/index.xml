@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kernel on rsvn.blog</title>
+    <link>http://localhost:1313/blog/tags/kernel/</link>
+    <description>Recent content in Kernel on rsvn.blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>exploring-os</title>
+      <link>http://localhost:1313/blog/posts/resources/os-stuff/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/resources/os-stuff/</guid>
+      <description>&lt;h2 id=&#34;kernel-hacking&#34;&gt;kernel Hacking&lt;/h2&gt;
+&lt;h4 id=&#34;c-programming--os-concepts--linux-internals--system-calls--kernel--drivers--projects--specialization&#34;&gt;C Programming → OS Concepts → Linux Internals → System Calls → Kernel &amp;amp; Drivers → Projects → Specialization&lt;/h4&gt;
+&lt;h3 id=&#34;os-concepts&#34;&gt;Os concepts&lt;/h3&gt;
+&lt;p&gt;-[os-three-easy-pieces]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/4FpG1DcvHzc?si=QPU-7kv9sBZYo-G4&#34;&gt;system-programing-playlist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mohitmishra786.github.io/exploring-os/src/&#34;&gt;daily-blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/remzi-arpacidusseau/ostep-projects&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kernel-hacking-1&#34;&gt;Kernel hacking&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jvns.ca/blog/2014/01/04/4-paths-to-being-a-kernel-hacker/&#34;&gt;guide-to-kerneldev&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kernelnewbies.org/&#34;&gt;kernel-newbeis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.osdev.org/Expanded_Main_Page&#34;&gt;osdev-wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fWUJKH0RNFE&amp;amp;list=PLbtzT1TYeoMhTPzyTZboW_j7TPAnjv9XB&#34;&gt;xv6-kernel &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pdfs&#34;&gt;pdfs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.doc-developpement-durable.org/file/Projets-informatiques/cours-&amp;amp;-manuels-informatiques/Linux/Linux%20Kernel%20Development,%203rd%20Edition.pdf&#34;&gt;linux-kernel-development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://littleosbook.github.io/&#34;&gt;little book on os dev&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-contribute&#34;&gt;✨ Contribute&lt;/h3&gt;
+&lt;p&gt;Found a great tool or guide?&lt;br&gt;
+Open a pull request and add it here — let’s make this a living resource for developers!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

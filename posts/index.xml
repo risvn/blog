@@ -6,8 +6,30 @@
     <description>Recent content in Posts on rsvn.blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 18:12:28 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 00:16:37 +0530</lastBuildDate>
     <atom:link href="https://risvn.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources</title>
+      <link>https://risvn.github.io/blog/posts/resources/</link>
+      <pubDate>Sat, 01 Nov 2025 00:16:37 +0530</pubDate>
+      <guid>https://risvn.github.io/blog/posts/resources/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;These are the resources gathered from all over the internet that i find valube for learning and sorted in categories (I think it would help others as well)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;developer-tools--learning-resources&#34;&gt;Developer Tools — Learning Resources&lt;/h3&gt;
+&lt;p&gt;A curated list of &lt;strong&gt;developer tools&lt;/strong&gt; and &lt;strong&gt;learning materials&lt;/strong&gt; for mastering the modern developer workflow — from terminals and editors to version control and build systems.&lt;/p&gt;
+&lt;h4 id=&#34;1-terminals--shells&#34;&gt;1. Terminals &amp;amp; Shells&lt;/h4&gt;
+&lt;h4 id=&#34;-learn-the-command-line&#34;&gt;🔹 Learn the Command Line&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxcommand.org/tlcl.php&#34;&gt;The Linux Command Line&lt;/a&gt; — A free book by William Shotts.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;amp;list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J&amp;amp;index=1&#34;&gt;messing semister -Shell (YT) &lt;/a&gt; — missing semester video lecture .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;-terminal-multiplexers&#34;&gt;🔹 Terminal Multiplexers&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thoughtbot.com/blog/a-tmux-crash-course&#34;&gt;A tmux crash course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;if you are starting new or experencied developer try out &lt;strong&gt;vim&lt;/strong&gt; text editor you might struggle at the beggining with time you will see how awesome editor is and you will start using every where like i do :)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>rsvn&#39;s Blog</title>
       <link>https://risvn.github.io/blog/posts/whyblog/</link>
