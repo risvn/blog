@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Linux on rsvn.blog</title>
-    <link>http://localhost:1313/blog/tags/linux/</link>
-    <description>Recent content in Linux on rsvn.blog</description>
+    <title>Cstack on rsvn.blog</title>
+    <link>http://localhost:1313/blog/tags/cstack/</link>
+    <description>Recent content in Cstack on rsvn.blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Nov 2025 00:16:37 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/cstack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10x developer</title>
       <link>http://localhost:1313/blog/posts/resources/</link>

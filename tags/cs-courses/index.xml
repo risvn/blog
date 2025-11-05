@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on rsvn.blog</title>
-    <link>https://risvn.github.io/blog/posts/</link>
-    <description>Recent content in Posts on rsvn.blog</description>
+    <title>Cs-Courses on rsvn.blog</title>
+    <link>https://risvn.github.io/blog/tags/cs-courses/</link>
+    <description>Recent content in Cs-Courses on rsvn.blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Nov 2025 18:07:15 +0530</lastBuildDate>
-    <atom:link href="https://risvn.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://risvn.github.io/blog/tags/cs-courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10x developer</title>
       <link>https://risvn.github.io/blog/posts/resources/</link>
@@ -51,20 +51,6 @@
 &lt;li&gt;&lt;a href=&#34;https://kernelnewbies.org/&#34;&gt;os dev wiki&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://littleosbook.github.io/&#34;&gt;little book on os&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>rsvn&#39;s Blog</title>
-      <link>https://risvn.github.io/blog/posts/whyblog/</link>
-      <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/posts/whyblog/</guid>
-      <description>&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“Your mind is for having ideas, not holding them.”&lt;br&gt;
-— &lt;em&gt;David Allen&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Our brain consumes far more information than we can handle — and often, we forget things( these are the words form the book &lt;strong&gt;bulidng a  second brain&lt;/strong&gt;)&lt;/p&gt;
-&lt;p&gt;So, I wanted to make my learning &lt;strong&gt;structured&lt;/strong&gt; — something easily maintainable, reachable, and organized.&lt;/p&gt;
-&lt;p&gt;This is &lt;em&gt;my commonplace&lt;/em&gt; — a space to store the information I gather and interpret in my own perspective and can be accesed from any where just with internet connection.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
