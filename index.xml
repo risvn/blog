@@ -6,8 +6,25 @@
     <description>Recent content on rsvn.blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Nov 2025 18:07:15 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 17:35:23 +0530</lastBuildDate>
     <atom:link href="https://risvn.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>self hosting</title>
+      <link>https://risvn.github.io/blog/posts/daemon/</link>
+      <pubDate>Fri, 07 Nov 2025 17:35:23 +0530</pubDate>
+      <guid>https://risvn.github.io/blog/posts/daemon/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;If you need a machine and don’t buy it,
+then you will ultimately find that you have paid for it and don’t have it.&lt;br&gt;
+— &lt;em&gt;Henry Ford via Clayton Christensen&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;These days I&amp;rsquo;m working on an &lt;strong&gt;HTTP server in C&lt;/strong&gt; using &lt;strong&gt;WebSockets&lt;/strong&gt;, just to get a taste of how things work under the hood.&lt;br&gt;
+The only functionality of the server is to listen and send HTML and media files.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Now a days &lt;strong&gt;cloud&lt;/strong&gt; is more popularized for its &lt;strong&gt;accessibility&lt;/strong&gt;, &lt;strong&gt;scalability&lt;/strong&gt;, and the fact that &lt;strong&gt;real hardware is abstracted away&lt;/strong&gt; from developers.&lt;br&gt;
+I wanted to see for myself what it’s like to &lt;strong&gt;self-host on a bare-metal server&lt;/strong&gt; — even though it’s a small project.&lt;br&gt;
+At this point, my servers are sitting idle anyway, so why not?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>10x developer</title>
       <link>https://risvn.github.io/blog/posts/resources/</link>

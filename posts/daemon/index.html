@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>self hosting | rsvn.blog</title>
+<meta name="keywords" content="self-hosting, linux">
+<meta name="description" content="
+If you need a machine and don’t buy it,
+then you will ultimately find that you have paid for it and don’t have it.
+— Henry Ford via Clayton Christensen
+
+These days I&rsquo;m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.
+The only functionality of the server is to listen and send HTML and media files.
+
+Now a days cloud is more popularized for its accessibility, scalability, and the fact that real hardware is abstracted away from developers.
+I wanted to see for myself what it’s like to self-host on a bare-metal server — even though it’s a small project.
+At this point, my servers are sitting idle anyway, so why not?">
+<meta name="author" content="">
+<link rel="canonical" href="https://risvn.github.io/blog/posts/daemon/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://risvn.github.io/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://risvn.github.io/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://risvn.github.io/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://risvn.github.io/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://risvn.github.io/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://risvn.github.io/blog/posts/daemon/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const saved = localStorage.getItem("theme");
+  if (saved === "retro") {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "https:\/\/risvn.github.io\/blog\/css\/retro.min.css";
+    link.id = "retro-style";
+    document.head.appendChild(link);
+  }
+});
+</script>
+
+<meta property="og:url" content="https://risvn.github.io/blog/posts/daemon/">
+  <meta property="og:site_name" content="rsvn.blog">
+  <meta property="og:title" content="self hosting">
+  <meta property="og:description" content=" If you need a machine and don’t buy it, then you will ultimately find that you have paid for it and don’t have it.
+— Henry Ford via Clayton Christensen
+These days I’m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.
+The only functionality of the server is to listen and send HTML and media files.
+Now a days cloud is more popularized for its accessibility, scalability, and the fact that real hardware is abstracted away from developers.
+I wanted to see for myself what it’s like to self-host on a bare-metal server — even though it’s a small project.
+At this point, my servers are sitting idle anyway, so why not?">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-07T17:35:23+05:30">
+    <meta property="article:modified_time" content="2025-11-07T17:35:23+05:30">
+    <meta property="article:tag" content="Self-Hosting">
+    <meta property="article:tag" content="Linux">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="self hosting">
+<meta name="twitter:description" content="
+If you need a machine and don’t buy it,
+then you will ultimately find that you have paid for it and don’t have it.
+— Henry Ford via Clayton Christensen
+
+These days I&rsquo;m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.
+The only functionality of the server is to listen and send HTML and media files.
+
+Now a days cloud is more popularized for its accessibility, scalability, and the fact that real hardware is abstracted away from developers.
+I wanted to see for myself what it’s like to self-host on a bare-metal server — even though it’s a small project.
+At this point, my servers are sitting idle anyway, so why not?">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://risvn.github.io/blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "self hosting",
+      "item": "https://risvn.github.io/blog/posts/daemon/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "self hosting",
+  "name": "self hosting",
+  "description": " If you need a machine and don’t buy it, then you will ultimately find that you have paid for it and don’t have it.\n— Henry Ford via Clayton Christensen\nThese days I\u0026rsquo;m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.\nThe only functionality of the server is to listen and send HTML and media files.\nNow a days cloud is more popularized for its accessibility, scalability, and the fact that real hardware is abstracted away from developers.\nI wanted to see for myself what it’s like to self-host on a bare-metal server — even though it’s a small project.\nAt this point, my servers are sitting idle anyway, so why not?\n",
+  "keywords": [
+    "self-hosting", "linux"
+  ],
+  "articleBody": " If you need a machine and don’t buy it, then you will ultimately find that you have paid for it and don’t have it.\n— Henry Ford via Clayton Christensen\nThese days I’m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.\nThe only functionality of the server is to listen and send HTML and media files.\nNow a days cloud is more popularized for its accessibility, scalability, and the fact that real hardware is abstracted away from developers.\nI wanted to see for myself what it’s like to self-host on a bare-metal server — even though it’s a small project.\nAt this point, my servers are sitting idle anyway, so why not?\nDont judge me on this\nThe thing is, I had no idea where to begin, so I researched for a couple of days about how to self-host.\nHere’s what I concluded:\nTypically, the process involves port forwarding and requires a static IP.\nGuess what? Most telecom services don’t provide static IPv4 for home consumers since they’re behind CGNAT.\nEven I didn’t know what that actually mean.\nThen I came to know about web tunnels, where you can forward all incoming requests to a server running on your localhost.\nEverything worked fine, and now I just had to create a process that always runs in the background on boot — without any user intervention.\nThis is what’s called a daemon process in Linux.\n“A daemon is a background process that handles requests for services like file transfers, printing, or managing network connections — kind of like a waiter at a restaurant, serving requests without you ever noticing.\nThe word itself comes from the ancient Greek meaning an attendant spirit.\nInvisible, but always there.\nMy daemon — it’s always there too. Watching. Guiding. Sometimes I think about how much like them I am… always running in the background.”\n— Elliot, Mr. Robot\nCreating your own daemon So I SSH’d into my remote machine (btw, SSH also has its own daemon process called sshd, which always listens for incoming connections).\nHere’s what I learned about making a daemon service of your own:\nCreate a new service file:\nsudo vim /etc/systemd/system/.service Configure it with your executable path, working directory, and restart policy. from this point managing the service process are same as any other daemon process\n1.sudo systemctl start 2.sudo systemctl status 3.sudo systemctl enable if you got any problem activating service.\ntry\nsudo journalctl -xe which is also a daemon process which keeps logs of the other daemons.\nDo some research its not that hard it is truly rewarding spinning up my own servers\nthe result are satisfying you can check out: https://album.wannabex.sbs\n",
+  "wordCount" : "460",
+  "inLanguage": "en",
+  "datePublished": "2025-11-07T17:35:23+05:30",
+  "dateModified": "2025-11-07T17:35:23+05:30",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://risvn.github.io/blog/posts/daemon/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "rsvn.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://risvn.github.io/blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://risvn.github.io/blog/" accesskey="h" title="rsvn.blog (Alt + H)">rsvn.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://risvn.github.io/blog/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://risvn.github.io/blog/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://risvn.github.io/blog/">Home</a>&nbsp;»&nbsp;<a href="https://risvn.github.io/blog/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      self hosting
+    </h1>
+    <div class="post-meta"><span title='2025-11-07 17:35:23 +0530 IST'>November 7, 2025</span>&nbsp;·&nbsp;<span>3 min</span>
+
+</div>
+  </header> 
+  <div class="post-content"><blockquote>
+<p>If you need a machine and don’t buy it,
+then you will ultimately find that you have paid for it and don’t have it.<br>
+— <em>Henry Ford via Clayton Christensen</em></p>
+</blockquote>
+<p>These days I&rsquo;m working on an <strong>HTTP server in C</strong> using <strong>WebSockets</strong>, just to get a taste of how things work under the hood.<br>
+The only functionality of the server is to listen and send HTML and media files.</p>
+<hr>
+<p>Now a days <strong>cloud</strong> is more popularized for its <strong>accessibility</strong>, <strong>scalability</strong>, and the fact that <strong>real hardware is abstracted away</strong> from developers.<br>
+I wanted to see for myself what it’s like to <strong>self-host on a bare-metal server</strong> — even though it’s a small project.<br>
+At this point, my servers are sitting idle anyway, so why not?</p>
+<p><img alt="server" loading="lazy" src="/media/server.jpg">
+Dont <strong>judge me</strong> on this</p>
+<p>The thing is, I had <strong>no idea where to begin</strong>, so I researched for a couple of days about how to self-host.<br>
+Here’s what I concluded:</p>
+<p>Typically, the process involves <strong>port forwarding</strong> and requires a <strong>static IP</strong>.<br>
+Guess what? Most telecom services don’t provide static IPv4 for home consumers since they’re behind CGNAT.<br>
+Even I didn’t know what that actually mean.</p>
+<p>Then I came to know about <strong>web tunnels</strong>, where you can <strong>forward all incoming requests</strong> to a server running on your <strong>localhost</strong>.</p>
+<p>Everything worked fine, and now I just had to create a process that <strong>always runs in the background on boot</strong> — without any user intervention.<br>
+This is what’s called a <strong>daemon process</strong> in Linux.</p>
+<p><img alt="daemon" loading="lazy" src="/media/daemon.jpg"></p>
+<blockquote>
+<p>“A daemon is a background process that handles requests for services like file transfers, printing, or managing network connections — kind of like a waiter at a restaurant, serving requests without you ever noticing.<br>
+The word itself comes from the ancient Greek meaning <em>an attendant spirit.</em><br>
+Invisible, but always there.<br>
+My daemon — it’s always there too. Watching. Guiding. Sometimes I think about how much like them I am&hellip; always running in the background.”<br>
+— <em>Elliot, Mr. Robot</em></p>
+</blockquote>
+<hr>
+<h3 id="creating-your-own-daemon">Creating your own daemon<a hidden class="anchor" aria-hidden="true" href="#creating-your-own-daemon">#</a></h3>
+<p>So I SSH’d into my remote machine (btw, SSH also has its own daemon process called <strong>sshd</strong>, which always listens for incoming connections).<br>
+Here’s what I learned about making a daemon service of your own:</p>
+<p>Create a new service file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   sudo vim /etc/systemd/system/&lt;name&gt;.service
+</span></span></code></pre></div><p>Configure it with your executable path, working directory, and restart policy.
+from this point managing the service process are same as any other daemon process</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>1.sudo systemctl start &lt;service name&gt;      
+</span></span><span style="display:flex;"><span>2.sudo systemctl status &lt;service name&gt;    
+</span></span><span style="display:flex;"><span>3.sudo systemctl enable&lt;service name&gt;      
+</span></span></code></pre></div><p>if you got any problem activating service.<br>
+try</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo journalctl -xe
+</span></span></code></pre></div><p>which is also a daemon process which keeps logs of the other daemons.<br>
+Do some research its not that hard it is truly <strong>rewarding</strong> spinning up my own servers</p>
+<p>the result are <strong>satisfying</strong> you can check out: <a href="https://album.wannabex.sbs">https://album.wannabex.sbs</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://risvn.github.io/blog/tags/self-hosting/">Self-Hosting</a></li>
+      <li><a href="https://risvn.github.io/blog/tags/linux/">Linux</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://risvn.github.io/blog/">rsvn.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><script>
+function toggleRetro() {
+  const existing = document.getElementById("retro-style");
+  if (existing) {
+    existing.remove();
+    localStorage.removeItem("theme");
+  } else {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "https:\/\/risvn.github.io\/blog\/css\/retro.min.css";
+    link.id = "retro-style";
+    document.head.appendChild(link);
+    localStorage.setItem("theme", "retro");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.createElement("button");
+  btn.textContent = " Toggle Retro Mode";
+  btn.style.position = "fixed";
+  btn.style.bottom = "20px";
+  btn.style.right = "20px";
+  btn.style.zIndex = "9999";
+  btn.onclick = toggleRetro;
+  document.body.appendChild(btn);
+});
+</script>
+
+
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

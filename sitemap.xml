@@ -2,28 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://risvn.github.io/blog/categories/</loc>
+    <lastmod>2025-11-07T17:35:23+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/categories/linux/</loc>
+    <lastmod>2025-11-07T17:35:23+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/tags/linux/</loc>
+    <lastmod>2025-11-07T17:35:23+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/posts/</loc>
+    <lastmod>2025-11-07T17:35:23+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/</loc>
+    <lastmod>2025-11-07T17:35:23+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/posts/daemon/</loc>
+    <lastmod>2025-11-07T17:35:23+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/tags/self-hosting/</loc>
+    <lastmod>2025-11-07T17:35:23+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/tags/</loc>
+    <lastmod>2025-11-07T17:35:23+05:30</lastmod>
+  </url><url>
     <loc>https://risvn.github.io/blog/posts/resources/</loc>
     <lastmod>2025-11-01T18:07:15+05:30</lastmod>
   </url><url>
     <loc>https://risvn.github.io/blog/tags/awesome-resources/</loc>
     <lastmod>2025-11-01T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/categories/</loc>
-    <lastmod>2025-11-01T18:07:15+05:30</lastmod>
-  </url><url>
     <loc>https://risvn.github.io/blog/tags/cs-courses/</loc>
     <lastmod>2025-11-01T18:07:15+05:30</lastmod>
   </url><url>
     <loc>https://risvn.github.io/blog/categories/development/</loc>
-    <lastmod>2025-11-01T18:07:15+05:30</lastmod>
-  </url><url>
-    <loc>https://risvn.github.io/blog/posts/</loc>
-    <lastmod>2025-11-01T18:07:15+05:30</lastmod>
-  </url><url>
-    <loc>https://risvn.github.io/blog/</loc>
-    <lastmod>2025-11-01T18:07:15+05:30</lastmod>
-  </url><url>
-    <loc>https://risvn.github.io/blog/tags/</loc>
     <lastmod>2025-11-01T18:07:15+05:30</lastmod>
   </url><url>
     <loc>https://risvn.github.io/blog/categories/blog/</loc>
