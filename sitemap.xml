@@ -2,75 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://risvn.github.io/blog/categories/</loc>
+    <loc>http://localhost:1313/blog/tags/daemon/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/daemon/</loc>
+    <loc>http://localhost:1313/blog/tags/linux/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/linux/</loc>
+    <loc>http://localhost:1313/blog/posts/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/posts/</loc>
+    <loc>http://localhost:1313/blog/tags/programming/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/programming/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/</loc>
+    <loc>http://localhost:1313/blog/posts/selfhost/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/posts/selfhost/</loc>
+    <loc>http://localhost:1313/blog/tags/self-hosting/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/categories/self-hosting/</loc>
+    <loc>http://localhost:1313/blog/tags/servers/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/self-hosting/</loc>
+    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/servers/</loc>
-    <lastmod>2025-11-30T18:07:15+05:30</lastmod>
-  </url><url>
-    <loc>https://risvn.github.io/blog/categories/ssh/</loc>
-    <lastmod>2025-11-30T18:07:15+05:30</lastmod>
-  </url><url>
-    <loc>https://risvn.github.io/blog/tags/</loc>
-    <lastmod>2025-11-30T18:07:15+05:30</lastmod>
-  </url><url>
-    <loc>https://risvn.github.io/blog/posts/10xdev/</loc>
+    <loc>http://localhost:1313/blog/posts/10xdev/</loc>
     <lastmod>2025-11-01T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/awesome-resources/</loc>
+    <loc>http://localhost:1313/blog/tags/awesome-resources/</loc>
     <lastmod>2025-11-01T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/cs-courses/</loc>
+    <loc>http://localhost:1313/blog/tags/cs-courses/</loc>
     <lastmod>2025-11-01T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/categories/posts/</loc>
-    <lastmod>2025-11-01T18:07:15+05:30</lastmod>
-  </url><url>
-    <loc>https://risvn.github.io/blog/categories/blog/</loc>
+    <loc>http://localhost:1313/blog/categories/blog/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/blog/</loc>
+    <loc>http://localhost:1313/blog/tags/blog/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/learning-journal/</loc>
+    <loc>http://localhost:1313/blog/categories/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/made-with-hugo/</loc>
+    <loc>http://localhost:1313/blog/tags/learning-journal/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/notes-to-self/</loc>
+    <loc>http://localhost:1313/blog/tags/made-with-hugo/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/personal-blog/</loc>
+    <loc>http://localhost:1313/blog/tags/notes-to-self/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/posts/whyblog/</loc>
+    <loc>http://localhost:1313/blog/tags/personal-blog/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/archives/</loc>
+    <loc>http://localhost:1313/blog/posts/whyblog/</loc>
+    <lastmod>2025-10-30T18:12:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/archives/</loc>
   </url>
 </urlset>

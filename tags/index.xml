@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on rsvn.blog</title>
-    <link>https://risvn.github.io/blog/tags/</link>
+    <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on rsvn.blog</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Nov 2025 18:07:15 +0530</lastBuildDate>
-    <atom:link href="https://risvn.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Daemon</title>
-      <link>https://risvn.github.io/blog/tags/daemon/</link>
+      <link>http://localhost:1313/blog/tags/daemon/</link>
       <pubDate>Sun, 30 Nov 2025 18:07:15 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/daemon/</guid>
+      <guid>http://localhost:1313/blog/tags/daemon/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://risvn.github.io/blog/tags/linux/</link>
+      <link>http://localhost:1313/blog/tags/linux/</link>
       <pubDate>Sun, 30 Nov 2025 18:07:15 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/linux/</guid>
+      <guid>http://localhost:1313/blog/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://risvn.github.io/blog/tags/programming/</link>
+      <link>http://localhost:1313/blog/tags/programming/</link>
       <pubDate>Sun, 30 Nov 2025 18:07:15 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/programming/</guid>
+      <guid>http://localhost:1313/blog/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Self-Hosting</title>
-      <link>https://risvn.github.io/blog/tags/self-hosting/</link>
+      <link>http://localhost:1313/blog/tags/self-hosting/</link>
       <pubDate>Sun, 30 Nov 2025 18:07:15 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/self-hosting/</guid>
+      <guid>http://localhost:1313/blog/tags/self-hosting/</guid>
       <description></description>
     </item>
     <item>
       <title>Servers</title>
-      <link>https://risvn.github.io/blog/tags/servers/</link>
+      <link>http://localhost:1313/blog/tags/servers/</link>
       <pubDate>Sun, 30 Nov 2025 18:07:15 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/servers/</guid>
+      <guid>http://localhost:1313/blog/tags/servers/</guid>
       <description></description>
     </item>
     <item>
       <title>Awesome-Resources</title>
-      <link>https://risvn.github.io/blog/tags/awesome-resources/</link>
+      <link>http://localhost:1313/blog/tags/awesome-resources/</link>
       <pubDate>Sat, 01 Nov 2025 18:07:15 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/awesome-resources/</guid>
+      <guid>http://localhost:1313/blog/tags/awesome-resources/</guid>
       <description></description>
     </item>
     <item>
       <title>Cs-Courses</title>
-      <link>https://risvn.github.io/blog/tags/cs-courses/</link>
+      <link>http://localhost:1313/blog/tags/cs-courses/</link>
       <pubDate>Sat, 01 Nov 2025 18:07:15 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/cs-courses/</guid>
+      <guid>http://localhost:1313/blog/tags/cs-courses/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://risvn.github.io/blog/tags/blog/</link>
+      <link>http://localhost:1313/blog/tags/blog/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/blog/</guid>
+      <guid>http://localhost:1313/blog/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Learning-Journal</title>
-      <link>https://risvn.github.io/blog/tags/learning-journal/</link>
+      <link>http://localhost:1313/blog/tags/learning-journal/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/learning-journal/</guid>
+      <guid>http://localhost:1313/blog/tags/learning-journal/</guid>
       <description></description>
     </item>
     <item>
       <title>Made-With-Hugo</title>
-      <link>https://risvn.github.io/blog/tags/made-with-hugo/</link>
+      <link>http://localhost:1313/blog/tags/made-with-hugo/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/made-with-hugo/</guid>
+      <guid>http://localhost:1313/blog/tags/made-with-hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes-to-Self</title>
-      <link>https://risvn.github.io/blog/tags/notes-to-self/</link>
+      <link>http://localhost:1313/blog/tags/notes-to-self/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/notes-to-self/</guid>
+      <guid>http://localhost:1313/blog/tags/notes-to-self/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal-Blog</title>
-      <link>https://risvn.github.io/blog/tags/personal-blog/</link>
+      <link>http://localhost:1313/blog/tags/personal-blog/</link>
       <pubDate>Thu, 30 Oct 2025 18:12:28 +0530</pubDate>
-      <guid>https://risvn.github.io/blog/tags/personal-blog/</guid>
+      <guid>http://localhost:1313/blog/tags/personal-blog/</guid>
       <description></description>
     </item>
   </channel>
