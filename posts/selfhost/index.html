@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Self Hosting | rsvn.blog</title>
 <meta name="keywords" content="self-hosting, linux, servers, daemon, programming">
 <meta name="description" content="
@@ -14,16 +14,16 @@
 These days I’m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.
 The only functionality of the server is to listen for incoming requests and send HTML and media files.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/blog/posts/selfhost/">
+<link rel="canonical" href="https://risvn.github.io/blog/posts/selfhost/">
 <link crossorigin="anonymous" href="/blog/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/blog/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/blog/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/blog/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/blog/safari-pinned-tab.svg">
+<link rel="icon" href="https://risvn.github.io/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://risvn.github.io/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://risvn.github.io/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://risvn.github.io/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://risvn.github.io/blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/posts/selfhost/">
+<link rel="alternate" hreflang="en" href="https://risvn.github.io/blog/posts/selfhost/">
 <noscript>
     <style>
         #theme-toggle,
@@ -75,13 +75,87 @@ The only functionality of the server is to listen for incoming requests and send
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="https://risvn.github.io/blog/posts/selfhost/">
+  <meta property="og:site_name" content="rsvn.blog">
+  <meta property="og:title" content="Self Hosting">
+  <meta property="og:description" content="“If you need a machine and don’t buy it, then you will ultimately find that you have paid for it and don’t have it.”
+— Henry Ford, via Clayton Christensen
+These days I’m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.
+The only functionality of the server is to listen for incoming requests and send HTML and media files.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-30T18:07:15+05:30">
+    <meta property="article:modified_time" content="2025-11-30T18:07:15+05:30">
+    <meta property="article:tag" content="Self-Hosting">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Servers">
+    <meta property="article:tag" content="Daemon">
+    <meta property="article:tag" content="Programming">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Self Hosting">
+  <meta name="twitter:description" content="“If you need a machine and don’t buy it, then you will ultimately find that you have paid for it and don’t have it.”
+— Henry Ford, via Clayton Christensen
+These days I’m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.
+The only functionality of the server is to listen for incoming requests and send HTML and media files.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://risvn.github.io/blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Self Hosting",
+      "item": "https://risvn.github.io/blog/posts/selfhost/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Self Hosting",
+  "name": "Self Hosting",
+  "description": " “If you need a machine and don’t buy it, then you will ultimately find that you have paid for it and don’t have it.”\n— Henry Ford, via Clayton Christensen\nThese days I’m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.\nThe only functionality of the server is to listen for incoming requests and send HTML and media files.\n",
+  "keywords": [
+    "self-hosting", "linux", "servers", "daemon", "programming"
+  ],
+  "articleBody": " “If you need a machine and don’t buy it, then you will ultimately find that you have paid for it and don’t have it.”\n— Henry Ford, via Clayton Christensen\nThese days I’m working on an HTTP server in C using WebSockets, just to get a taste of how things work under the hood.\nThe only functionality of the server is to listen for incoming requests and send HTML and media files.\nCloud services have become extremely popular due to accessibility, scalability, and the fact that real hardware is abstracted away from developers.\nI wanted to see for myself what it’s like to self-host on a bare-metal server — even though it’s a small project.\nAt this point, my servers are sitting idle anyway, so why not?\nNote I over simplified all the steps which took me hours to figure out.\nBut once you get it, that’s it 😉\nIf you are planning to self-host your personal projects, the steps are pretty much the same for any VPS or physical machine — all you need is a host.\n1. Get a Machine Cheapest way to get started is buying a Raspberry Pi with minimum 4GB RAM Flash a lightweight Linux distro (headless) Operate completely from CLI Perfect for personal or hobby projects Great first step into homelabbing VPS (Platform as a Service) You can rent a VPS from providers such as:\nLinode AWS EC2 DigitalOcean Hostinger Vultr For Front-End Developers You probably don’t want to manage your own server.\nServerless platforms handle deployment automatically.\nExamples:\nVercel Netlify AWS Amplify Most of these services are basically wrappers around AWS with nicer developer experience.\n2. Connecting to the Internet I had no idea where to begin, so I researched for a couple of days about self-hosting.\nHere’s what I learned:\nHosting usually requires port forwarding You need a static IP Most ISPs don’t give static IPv4 addresses Because they use CGNAT (Carrier-Grade NAT) I discovered web tunnels, which forward traffic to a server running on localhost.\nNote:\nTunnels are okay for demos but not recommended for high-traffic production systems.\nSo I created a Cloudflare tunnel (free) and ran the cloudflared daemon.\nThis acts as a bridge between my machine and Cloudflare servers, forwarding requests to my local server.\nDaemon “A daemon is a background process that handles requests for services like file transfers, printing, or managing network connections — kind of like a waiter at a restaurant.”\nThe word comes from ancient Greek meaning an attendant spirit.\nInvisible, but always there.\n— Elliot, Mr. Robot\n3. Creating Your Own Daemon I SSH’d into my remote machine.\nSSH itself runs a daemon called sshd.\nTo create your own daemon service:\nCreate a service file sudo vim /etc/systemd/system/.service Set: executable path working directory restart policy\n[Unit] Description=My Custom Daemon After=network.target [Service] ExecStart=${PATH} Restart=always User=${USR} WorkingDirectory=${PATH} [Install] WantedBy=multi-user.target Manage your service # After creating service sudo systemctl daemon-reload # Start or stop sudo systemctl start sudo systemctl stop mydaemon sudo systemctl restart mydaemon # Enable on boot sudo systemctl enable # Check Status sudo systemctl status # Check logs sudo journalctl -xe 4. Buy a Domain Without a domain people cannot find you. I strongly recommend buying a domain if you’re into web programming. A single domain can host multiple applications and static sites. Point your DNS to the Cloudflare tunnel. Cloudflare Zero Trust dashboard can be overwhelming for beginners.\n5. Share Everywhere Self-hosting is not that hard, and it’s very rewarding to spin up your own server. It’s fascinating to understand how the internet actually works.\nYou can check my self-hosted project:\nhttps://album.wannabex.sbs Topics I’m Exploring Threads \u0026 Mutexes Load Balancers Containerization Socket Programming OS and Kernel\n",
+  "wordCount" : "616",
+  "inLanguage": "en",
+  "datePublished": "2025-11-30T18:07:15+05:30",
+  "dateModified": "2025-11-30T18:07:15+05:30",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://risvn.github.io/blog/posts/selfhost/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "rsvn.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://risvn.github.io/blog/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/blog/" accesskey="h" title="rsvn.blog (Alt + H)">rsvn.blog</a>
+            <a href="https://risvn.github.io/blog/" accesskey="h" title="rsvn.blog (Alt + H)">rsvn.blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -107,12 +181,12 @@ The only functionality of the server is to listen for incoming requests and send
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/blog/archives/" title="Archives">
+                <a href="https://risvn.github.io/blog/archives/" title="Archives">
                     <span>Archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/blog/categories/" title="Categories">
+                <a href="https://risvn.github.io/blog/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
@@ -123,7 +197,7 @@ The only functionality of the server is to listen for incoming requests and send
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/blog/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/blog/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://risvn.github.io/blog/">Home</a>&nbsp;»&nbsp;<a href="https://risvn.github.io/blog/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Self Hosting
     </h1>
@@ -270,18 +344,18 @@ OS and Kernel</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/blog/tags/self-hosting/">Self-Hosting</a></li>
-      <li><a href="http://localhost:1313/blog/tags/linux/">Linux</a></li>
-      <li><a href="http://localhost:1313/blog/tags/servers/">Servers</a></li>
-      <li><a href="http://localhost:1313/blog/tags/daemon/">Daemon</a></li>
-      <li><a href="http://localhost:1313/blog/tags/programming/">Programming</a></li>
+      <li><a href="https://risvn.github.io/blog/tags/self-hosting/">Self-Hosting</a></li>
+      <li><a href="https://risvn.github.io/blog/tags/linux/">Linux</a></li>
+      <li><a href="https://risvn.github.io/blog/tags/servers/">Servers</a></li>
+      <li><a href="https://risvn.github.io/blog/tags/daemon/">Daemon</a></li>
+      <li><a href="https://risvn.github.io/blog/tags/programming/">Programming</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/blog/">rsvn.blog</a></span> · 
+        <span>&copy; 2026 <a href="https://risvn.github.io/blog/">rsvn.blog</a></span> · 
 
     <span>
         Powered by
