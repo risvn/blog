@@ -2,19 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://risvn.github.io/blog/categories/</loc>
+    <lastmod>2026-03-26T17:20:54+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/categories/economics/</loc>
+    <lastmod>2026-03-26T17:20:54+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/posts/economics/</loc>
+    <lastmod>2026-03-26T17:20:54+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/tags/economics/</loc>
+    <lastmod>2026-03-26T17:20:54+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/tags/markets/</loc>
+    <lastmod>2026-03-26T17:20:54+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/tags/money/</loc>
+    <lastmod>2026-03-26T17:20:54+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/posts/</loc>
+    <lastmod>2026-03-26T17:20:54+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/</loc>
+    <lastmod>2026-03-26T17:20:54+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/tags/</loc>
+    <lastmod>2026-03-26T17:20:54+05:30</lastmod>
+  </url><url>
     <loc>https://risvn.github.io/blog/tags/daemon/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
     <loc>https://risvn.github.io/blog/tags/linux/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/posts/</loc>
-    <lastmod>2025-11-30T18:07:15+05:30</lastmod>
-  </url><url>
     <loc>https://risvn.github.io/blog/tags/programming/</loc>
-    <lastmod>2025-11-30T18:07:15+05:30</lastmod>
-  </url><url>
-    <loc>https://risvn.github.io/blog/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
     <loc>https://risvn.github.io/blog/posts/selfhost/</loc>
@@ -26,7 +47,7 @@
     <loc>https://risvn.github.io/blog/tags/servers/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/tags/</loc>
+    <loc>https://risvn.github.io/blog/categories/tech/</loc>
     <lastmod>2025-11-30T18:07:15+05:30</lastmod>
   </url><url>
     <loc>https://risvn.github.io/blog/posts/10xdev/</loc>
@@ -38,13 +59,7 @@
     <loc>https://risvn.github.io/blog/tags/cs-courses/</loc>
     <lastmod>2025-11-01T18:07:15+05:30</lastmod>
   </url><url>
-    <loc>https://risvn.github.io/blog/categories/blog/</loc>
-    <lastmod>2025-10-30T18:12:28+05:30</lastmod>
-  </url><url>
     <loc>https://risvn.github.io/blog/tags/blog/</loc>
-    <lastmod>2025-10-30T18:12:28+05:30</lastmod>
-  </url><url>
-    <loc>https://risvn.github.io/blog/categories/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
     <loc>https://risvn.github.io/blog/tags/learning-journal/</loc>
@@ -57,6 +72,9 @@
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
     <loc>https://risvn.github.io/blog/tags/personal-blog/</loc>
+    <lastmod>2025-10-30T18:12:28+05:30</lastmod>
+  </url><url>
+    <loc>https://risvn.github.io/blog/categories/philosophy/</loc>
     <lastmod>2025-10-30T18:12:28+05:30</lastmod>
   </url><url>
     <loc>https://risvn.github.io/blog/posts/whyblog/</loc>

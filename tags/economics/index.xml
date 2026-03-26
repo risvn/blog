@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Economics on rsvn.blog</title>
+    <link>https://risvn.github.io/blog/tags/economics/</link>
+    <description>Recent content in Economics on rsvn.blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Mar 2026 17:20:54 +0530</lastBuildDate>
+    <atom:link href="https://risvn.github.io/blog/tags/economics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Economics</title>
+      <link>https://risvn.github.io/blog/posts/economics/</link>
+      <pubDate>Thu, 26 Mar 2026 17:20:54 +0530</pubDate>
+      <guid>https://risvn.github.io/blog/posts/economics/</guid>
+      <description>&lt;h3 id=&#34;note&#34;&gt;NOTE&lt;/h3&gt;
+&lt;p&gt;This is a new thread of thought about what I understand about economics, how it works, and how it impacts us as individuals. I will continuously learn and journal in this blog, so sometimes there is a possibility of reaching wrong conclusions or misinterpreting things.
+&lt;strong&gt;Take everything with a grain of salt.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;what-is-economics&#34;&gt;What is Economics?&lt;/h3&gt;
+&lt;p&gt;Let’s start with the question: what is economics?
+For what I understand, we live in a world where resources are limited (scarcity of oil, coal, land, etc.). So what we do in order to survive or get basic essentials from others is trade.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
